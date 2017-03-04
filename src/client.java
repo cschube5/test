@@ -10,6 +10,9 @@ import java.net.*;
  */
 public class client {
     public static void main(String[] args) {
+        System.out.println("Welcome to the Chat");
+        System.out.println("Starting the Chat Now!");
+
         try{
             Socket s = new Socket("10.0.0.10",1201);
             DataInputStream din = new DataInputStream(s.getInputStream());

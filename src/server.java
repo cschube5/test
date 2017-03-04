@@ -9,6 +9,9 @@ import java.net.*;
 public class server {
 
     public static void main(String[] args) {
+        System.out.println("Welcome to the Chat");
+        System.out.println("Starting the Chat Now!");
+
         try{
 
             ServerSocket ss = new ServerSocket(1201);
