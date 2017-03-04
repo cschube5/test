@@ -12,10 +12,10 @@ public class client {
     public static void main(String[] args) {
         System.out.println("Welcome to the Chat");
         System.out.println("Starting the Chat Now!");
-        System.out.println("Mandira test");
+        System.out.println("Mandira test2");
 
         try{
-            Socket s = new Socket("10.0.0.10",1201);
+            Socket s = new Socket("10.189.70.31",1201);
             DataInputStream din = new DataInputStream(s.getInputStream());
             DataOutputStream dout = new DataOutputStream(s.getOutputStream());
 
